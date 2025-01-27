@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.section-1 {
+    background-color: #1D283A;
+}
+
+.video-page-1 {
+    background-size: cover;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.section-1-heading {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.free {
+    color: #ccff33;
+}
+
+.real-amount {
+    text-decoration: line-through;
+}
+
+.section-1-button {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Roboto";
+    border-radius: 8px;
+    border-color: #ffffff;
+    padding: 5px;
+    font-size: 18px;
+    min-width: 180px;
+    width: 40%;
+}
+
+.section-2 {
+    background-color: #0d2436;
+}
+
+.section-2-heading {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.companyscroll-container {
+    width: 100%;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.personicon {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.personname {
+    color: #f1f5f9;
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.personwork {
+    color: #e2e8f0;
+    font-size: 16px;
+}
+
+.personquote {
+    color: #e2e8f0;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+.companylogo {
+    width: 80px;
+    margin-right: 20px;
+}
+
+.learnlist {
+    color: #e2e8f0;
+    margin-bottom: 24px;
+    font-size: 16px;
+}
+
+..panelimage {
+    width: 35px;
+}
+
+.panelcontainercard {
+    color: #f1f5f9;
+    padding: 12px;
+    background-color: #202733;
+    border-radius: 10px;
+    height: 320px;
+}
+
+.panelcontainercard::-webkit-scrollbar {
+    width: 10px;
+}
+
+.panelcontainercard::-webkit-scrollbar-track {
+    background: #202733;
+}
+
+.panelcontainercard::-webkit-scrollbar-thumb {
+    background-color: #e2e8f0;
+    border-radius: 10px;
+    border: 0;
+}
+
+.company-row-icon {
+    height: 35px;
+    margin-right: 40px;
+}
+
+.meetyourspeaker {
+    color: #f1f5f9;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.companyscroll-icon {
+    display: inline-block;
+    padding-left: 100%;
+    margin-right: 15px;
+    animation: scrollcompanyicon 80s linear infinite;
+}
+
+@keyframes scrollcompanyicon {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.section-3 {
+    background-image: radial-gradient(#0d2436, #71895F);
+}
+
+.section-3-heading {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.section-3-description {
+    color: #d9d9d9;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.cardforScrollRare {
+    overflow: auto;
+    flex-grow: 1;
+}
+
+.cardforScrollRare::-webkit-scrollbar {
+    display: none;
+}
+
+.cardContentRare {
+    width: 100%;
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 200px;
+}
+
+.Rarecard {
+    background-color: #334155;
+    border-radius: 16px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: 12px;
+    min-width: 305px;
+    min-height: 500px;
+}
+
+.trailer-container {
+    padding: 8px;
+}
+
+.trailer {
+    background-color: #60a5fa;
+    border-radius: 24px;
+    width: 80px;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.PersonWorkHeadingRare {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.clock {
+    width: 20px;
+    height: 20px;
+}
+
+.duration {
+    color: #e2e8f0;
+}
+
+.page-3-button-1 {
+    color: #ffffff;
+    background-color: transparent;
+    font-family: "Roboto";
+    border-width: 1px;
+    border-radius: 50px;
+    margin-top: 7px;
+    margin-right: 5px;
+    padding: 3px;
+    font-size: 15px;
+    min-width: 100px;
+}
+
+.buttonscroll {
+    overflow-x: scroll;
+}
+
+.buttonscroll::-webkit-scrollbar {
+    display: none;
+}
+
+.section-4 {
+    background-color: #0d2436;
+}
+
+.section-4-heading {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.page-4-button {
+    color: #ff8000;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #ff8000;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+#carouselFeedbackSection .carousel-indicators .active {
+    background-color: #e2e8f0;
+    width: 25px;
+    height: 8px;
+    border-radius: 25%;
+}
+
+.feedbackcard {
+    background-color: #1e293b;
+    width: 500px;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+}
+
+.profilepic {
+    height: 45px;
+    margin-right: 10px;
+}
+
+.feedbacktitle {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.feedbacksubtitle {
+    color: #e2e8f0;
+    font-size: 10px;
+}
+
+.linkedin-img {
+    margin-left: auto;
+    height: 45px;
+}
+
+.feedcontent {
+    color: #ffffff;
+    font-size: 12px;
+}
+
+.read-more-linkedin {
+    font-size: 12px;
+}
+
+.carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: auto;
+}
+
+.section-5 {
+    background-image: linear-gradient(#0d2436, #71895F);
+}
+
+.section-5-heading {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.section-5-icon-description {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Roboto";
+    padding: 13px;
+    margin-left: 5px;
+}
+
+.money-icon-img {
+    height: 40px;
+    border-radius: 1400px;
+}
+
+.section-5-icon {
+    height: 10px;
+}
+
+.button-page-5 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.section-6 {
+    background-color: #0d2436;
+}
+
+.section-6-heading {
+    color: #ffffff;
+    font-size: 26px;
+}
+
+.claiminput {
+    background-color: #475163;
+    color: #f8fafc;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 10px;
+    width: 100%;
+    border: solid 0;
+}
+
+.claiminput::placeholder {
+    font-weight: 600;
+    color: #a0afbd;
+    padding-left: 10px;
+}
+
+.button-page-6 {
+    padding: 10px;
+    border-radius: 8px;
+    width: 40%;
+    min-width: 180px;
+}
+
+
+.section-7 {
+    background-image: linear-gradient(to bottom, #71895F, #0d2436);
+}
+
+.section-heading {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.section-end {
+    background-color: #0d2436;
+}
+
+.reach-us-heading {
+    font-family: "Roboto";
+    color: #5a7184;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.mail-logo {
+    font-size: 18px;
+    padding-top: 3px;
+    color: #5a7184;
+}
+
+.mail {
+    padding-left: 14px;
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #5a7184;
+}
+
+.quick-links-heading {
+    font-family: "Roboto";
+    color: #5a7184;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.quick-links-lists {
+    list-style-type: none;
+}
+
+.quick-links-lists-item {
+    color: #8da3be;
+    margin-bottom: 5px;
+    font-family: "Roboto";
+}
+
+.payment-method-heading {
+    font-family: "Roboto";
+    color: #5a7184;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.payment-logo {
+    width: 50px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+.address-section {
+    color: #8da3be;
+    font-family: "Roboto";
+}
+
+.line {
+    border-width: 1px;
+    border-color: #8da3be;
+    width: 100%;
+}
+
+.applinks {
+    margin-left: 10px;
+}
+
+.final-lines {
+    font-size: 14px;
+    color: #5a7184;
+}
